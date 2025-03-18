@@ -15,33 +15,19 @@ Esta pasta contém os **contratos inteligentes** que implementam a lógica da at
 
 1️⃣ **Compilar os contratos:**
 
-bash
-
-CopiarEditar
-
 `npx hardhat compile`
 
 2️⃣ **Implantar os contratos na blockchain local:**
-
-bash
-
-CopiarEditar
 
 `npx hardhat run scripts/deploy.js --network localhost`
 
 3️⃣ **Interagir com os contratos (exemplo usando Hardhat Console):**
 
-bash
-
-CopiarEditar
 
 `npx hardhat console --network localhost`
 
 No console interativo, você pode chamar funções dos contratos, por exemplo:
 
-javascript
-
-CopiarEditar
 
 `const FirmwareRegistry = await ethers.getContractFactory("FirmwareRegistry");
 const registry = await FirmwareRegistry.attach("ENDEREÇO_DO_CONTRATO");

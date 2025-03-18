@@ -21,9 +21,6 @@ O repositório está organizado da seguinte forma:
 -   **contracts/** -- Código dos contratos inteligentes.
 -   **interface/** -- Código da API e interfaces de comunicação.
 -   **firmware/** -- Firmware de referência para dispositivos IoT.
--   **blockchain/** -- Scripts de inicialização da blockchain privada.
--   **docs/** -- Documentação do projeto.
--   **tests/** -- Testes automatizados dos contratos e firmware.
 -   **scripts/** -- Scripts auxiliares para deploy e interação.
 -   **README.md** -- Documentação principal do repositório.
 -   **.gitignore** -- Arquivos ignorados pelo Git.
